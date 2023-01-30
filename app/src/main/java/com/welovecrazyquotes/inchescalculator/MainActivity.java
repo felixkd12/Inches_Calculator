@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 inchesText = inchesEditText.getText().toString();
-                String warning = "Field Inches cannot be empty";
+                String warning = "Field Inches cannot be empty!";
 
                 if (inchesText.isEmpty()){
                     Toast.makeText(MainActivity.this, warning, Toast.LENGTH_SHORT).show();
